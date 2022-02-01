@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services.Tests\\PokemonInfoService.Services.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.API.Models\\PokemonInfoService.API.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.API.Models\\PokemonInfoService.API.Models.csproj",
+        "projectName": "PokemonInfoService.API.Models",
+        "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.API.Models\\PokemonInfoService.API.Models.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Models\\PokemonInfoService.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Models\\PokemonInfoService.Models.csproj",
+        "projectName": "PokemonInfoService.Models",
+        "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Models\\PokemonInfoService.Models.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services.Tests\\PokemonInfoService.Services.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services.Tests\\PokemonInfoService.Services.Tests.csproj",
+        "projectName": "PokemonInfoService.Services.Tests",
+        "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services.Tests\\PokemonInfoService.Services.Tests.csproj",
+        "packagesPath": "C:\\Users\\Gon_x\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gon_x\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services\\PokemonInfoService.Services.csproj": {
+                "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services\\PokemonInfoService.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services\\PokemonInfoService.Services.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services\\PokemonInfoService.Services.csproj",
+        "projectName": "PokemonInfoService.Services",
+        "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Services\\PokemonInfoService.Services.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.API.Models\\PokemonInfoService.API.Models.csproj": {
+                "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.API.Models\\PokemonInfoService.API.Models.csproj"
+              },
+              "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Models\\PokemonInfoService.Models.csproj": {
+                "projectPath": "C:\\Users\\Gon_x\\source\\repos\\PokemonInfoService\\PokemonInfoService.Models\\PokemonInfoService.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

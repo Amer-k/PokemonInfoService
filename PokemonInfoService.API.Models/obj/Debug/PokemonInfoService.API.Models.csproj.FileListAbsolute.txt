@@ -1,0 +1,5 @@
+C:\Users\Gon_x\source\repos\PokemonInfoService\PokemonInfoService.API.Models\bin\Debug\PokemonInfoService.API.Models.dll
+C:\Users\Gon_x\source\repos\PokemonInfoService\PokemonInfoService.API.Models\bin\Debug\PokemonInfoService.API.Models.pdb
+C:\Users\Gon_x\source\repos\PokemonInfoService\PokemonInfoService.API.Models\obj\Debug\PokemonInfoService.API.Models.csproj.CoreCompileInputs.cache
+C:\Users\Gon_x\source\repos\PokemonInfoService\PokemonInfoService.API.Models\obj\Debug\PokemonInfoService.API.Models.dll
+C:\Users\Gon_x\source\repos\PokemonInfoService\PokemonInfoService.API.Models\obj\Debug\PokemonInfoService.API.Models.pdb

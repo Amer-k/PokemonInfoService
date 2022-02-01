@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9b0dd55c-8cd5-43fe-9788-ba04d1926f06": {
+      "ProjectGuid": "9b0dd55c-8cd5-43fe-9788-ba04d1926f06",
+      "DisplayName": "PokemonInfoService.API",
+      "ColorIndex": 0
+    },
+    "df49fd16-ad89-4f16-b319-c16d65c9baed": {
+      "ProjectGuid": "df49fd16-ad89-4f16-b319-c16d65c9baed",
+      "DisplayName": "PokemonInfoService.Services",
+      "ColorIndex": 1
+    },
+    "e32e0638-8dbd-431e-8ae2-c374a4f69dc5": {
+      "ProjectGuid": "e32e0638-8dbd-431e-8ae2-c374a4f69dc5",
+      "DisplayName": "PokemonInfoService.API.Models",
+      "ColorIndex": 2
+    },
+    "e0e2e276-f207-4c9e-bf3f-204ce36a3ef9": {
+      "ProjectGuid": "e0e2e276-f207-4c9e-bf3f-204ce36a3ef9",
+      "DisplayName": "src",
+      "ColorIndex": 3
+    },
+    "2d4d8e08-2c45-429a-943d-ad5a723345c2": {
+      "ProjectGuid": "2d4d8e08-2c45-429a-943d-ad5a723345c2",
+      "DisplayName": "PokemonInfoService.Services.Tests",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
