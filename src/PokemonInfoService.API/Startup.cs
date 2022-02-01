@@ -4,9 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using PokemonInfoService.Services;
+using PokemonInfoService.Services.PokemonServices;
 using PokemonInfoService.Services.Mappers;
 using System;
+using PokemonInfoService.Services.TranslationServices;
 
 namespace PokemonInfoService.API
 {
@@ -34,10 +35,17 @@ namespace PokemonInfoService.API
                 c.Timeout = TimeSpan.FromSeconds(double.Parse(Configuration.GetSection("PokemonApi")["Timeout"]));
                 c.BaseAddress = new Uri(Configuration.GetSection("PokemonApi")["BaseUrl"]);
             });
+            services.AddHttpClient("TranslationApi", c =>
+            {
+                c.Timeout = TimeSpan.FromSeconds(double.Parse(Configuration.GetSection("TranslationApi")["Timeout"]));
+                c.BaseAddress = new Uri(Configuration.GetSection("TranslationApi")["BaseUrl"]);
+            });
 
             services.AddScoped<IPokemonInformationService, PokemonInformationService>();
             services.AddScoped<IPokemonApiClient, PokemonApiClient>();
             services.AddScoped<IPokemonApiModelMapper, PokemonApiModelMapper>();
+            services.AddScoped<ITranslationApiClient, TranslationApiClient>();
+            services.AddScoped<ITranslationService, TranslationService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

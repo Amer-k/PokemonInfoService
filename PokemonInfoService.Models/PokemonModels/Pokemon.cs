@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PokemonInfoService.Models
+namespace PokemonInfoService.Models.PokemonModels
 {
     public class Pokemon
     {

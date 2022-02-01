@@ -1,4 +1,4 @@
-﻿namespace PokemonInfoService.Models
+﻿namespace PokemonInfoService.Models.PokemonModels
 {
     public class FlavorText
     {

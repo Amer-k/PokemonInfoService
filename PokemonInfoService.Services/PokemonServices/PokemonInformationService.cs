@@ -2,7 +2,7 @@
 using PokemonInfoService.Services.Mappers;
 using System.Threading.Tasks;
 
-namespace PokemonInfoService.Services
+namespace PokemonInfoService.Services.PokemonServices
 {
     public interface IPokemonInformationService
     {

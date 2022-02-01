@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
-using PokemonInfoService.API.Models;
-using PokemonInfoService.Models;
+using PokemonInfoService.Models.PokemonModels;
 using PokemonInfoService.Services.Mappers;
 using System.Collections.Generic;
 using System.Linq;

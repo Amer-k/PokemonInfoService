@@ -1,11 +1,12 @@
 ﻿using Moq;
 using NUnit.Framework;
 using PokemonInfoService.API.Models;
-using PokemonInfoService.Models;
+using PokemonInfoService.Models.PokemonModels;
 using PokemonInfoService.Services.Mappers;
+using PokemonInfoService.Services.PokemonServices;
 using System.Threading.Tasks;
 
-namespace PokemonInfoService.Services.Tests
+namespace PokemonInfoService.Services.Tests.PokemonServices
 {
     public class PokemonInformationServiceTests
     {

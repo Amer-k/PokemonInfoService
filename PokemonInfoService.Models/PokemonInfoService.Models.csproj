@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlavorLanguage.cs" />
-    <Compile Include="FlavorText.cs" />
-    <Compile Include="Pokemon.cs" />
-    <Compile Include="PokemonHabitat.cs" />
+    <Compile Include="PokemonModels\FlavorLanguage.cs" />
+    <Compile Include="PokemonModels\FlavorText.cs" />
+    <Compile Include="PokemonModels\Pokemon.cs" />
+    <Compile Include="PokemonModels\PokemonHabitat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TranslateModels\ContentsModel.cs" />
+    <Compile Include="TranslateModels\SuccessModel.cs" />
+    <Compile Include="TranslateModels\Translation.cs" />
+    <Compile Include="TranslateModels\TranslationType.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

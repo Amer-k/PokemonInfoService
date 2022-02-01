@@ -1,13 +1,14 @@
 ﻿using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
+using PokemonInfoService.Services.PokemonServices;
 using PokemonInfoService.Services.Tests.Helpers;
 using System;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace PokemonInfoService.Services.Tests
+namespace PokemonInfoService.Services.Tests.PokemonServices
 {
     public class PokemonApiClientTest
     {

@@ -1,5 +1,5 @@
 ﻿using PokemonInfoService.API.Models;
-using PokemonInfoService.Models;
+using PokemonInfoService.Models.PokemonModels;
 using System;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -34,7 +34,7 @@ namespace PokemonInfoService.Services.Mappers
             var description = pokemon.Flavor_Text_Entries.FirstOrDefault(f => f.Language.Name == "en")?.Flavor_Text;
             if (description != null)
             {
-                return Regex.Replace(description, @"\t|\n|\r", " ");
+                return Regex.Replace(description, @"\t|\n|\r|\f", " ");
             }
 
             return null;

@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using PokemonInfoService.Models;
+using PokemonInfoService.Models.PokemonModels;
 using System;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace PokemonInfoService.Services
+namespace PokemonInfoService.Services.PokemonServices
 {
     public interface IPokemonApiClient
     {
